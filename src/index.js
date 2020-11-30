@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   userInputTaskDescription.addEventListener('submit', 'submitTaks')
   
   Function submitTaks(submit) {
-    submit.preventDefault()
+    submit.preventDefault();
   }
   
   
