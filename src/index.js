@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   createTaskForm.addEventListener('submit', 'submitTask')
   
-  Function submitTask(submit) {
+  function submitTask(submit) {
     submit.preventDefault();
     const newItem = document.createElement("li");
     newItem.innerText = userInput.value;
