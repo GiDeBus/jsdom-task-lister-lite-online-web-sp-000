@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const userInput = document.getElementById("new-task-description")
   const taskList = document.getElementById("tasks")
   
-  createTaskForm.addEventListener('submit', 'submitTaks')
+  createTaskForm.addEventListener('submit', 'submitTask')
   
-  Function submitTaks(submit) {
+  Function submitTask(submit) {
     submit.preventDefault();
     const newItem = document.createElement("li");
     newItem.innerText = userInput.value;
