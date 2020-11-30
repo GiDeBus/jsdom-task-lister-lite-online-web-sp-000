@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const userInput = document.getElementById("new-task-description")
   const taskList = document.getElementById("tasks")
   
-  userInput.addEventListener('submit', 'submitTaks')
+  createTaskForm.addEventListener('submit', 'submitTaks')
   
   Function submitTaks(submit) {
     submit.preventDefault();
