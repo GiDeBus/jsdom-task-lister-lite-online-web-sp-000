@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const userInputTaskDescription = document.getElementById("new-task-description")
   const taskList = document.getElementById("tasks")
   
-  userInputTaskDescription.addEventListener('submit', 'submitTaks') {
-    
-  }
+  userInputTaskDescription.addEventListener('submit', 'submitTaks')
+  
   
 });
