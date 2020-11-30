@@ -6,7 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
   userInputTaskDescription.addEventListener('submit', 'submitTaks')
   
-  Function submitTaks()
+  Function submitTaks(event) {
+    
+  }
   
   
 });
