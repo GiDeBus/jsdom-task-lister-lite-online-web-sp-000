@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   Function submitTaks(submit) {
     submit.preventDefault();
+    const newItem = document.createElement("li"); 
   }
   
   
